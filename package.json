@@ -1,0 +1,39 @@
+{
+  "name": "budo-build",
+  "version": "1.0.0",
+  "description": "A module which will build budo projects as a static page",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "combined-stream": "^1.0.5",
+    "concat-stream": "^1.5.1",
+    "hyperstream": "^1.2.2",
+    "minimist": "^1.2.0",
+    "simple-html-index": "^1.1.2",
+    "uglifyjs": "^2.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "budo,static,html,build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/budo-build.git"
+  },
+  "homepage": "https://github.com/Jam3/budo-build",
+  "bugs": {
+    "url": "https://github.com/Jam3/budo-build/issues"
+  },
+  "bin": {
+    "budo-build": "cmd.js"
+  }
+}
